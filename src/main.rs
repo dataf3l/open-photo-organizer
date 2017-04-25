@@ -52,7 +52,7 @@ fn hello_world(req: &mut Request) -> IronResult<Response> {
                     for path in paths {
                         //println!("Name: {}", path.unwrap().path().display());
                         let path:String = format!("{}",path.unwrap().path().display());
-                        file_list.push(format!("\"{}\"",path))
+                        file_list.push(format!("\"{}\"",path.replace("\\","/")))
                     }
                     let joined = file_list.join(",");
                     let ax = format!("{}{}{}","{\"file_list\":[",joined,"]}");
