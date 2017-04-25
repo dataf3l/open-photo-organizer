@@ -10,3 +10,9 @@ g_map["D".charCodeAt(0)] = "/Users/a/Desktop/2017/whatever/";
 g_map["G".charCodeAt(0)] = "/Users/a/Desktop/2017/school-3d-game/";
 g_map["V".charCodeAt(0)] = "/Users/a/Desktop/2017/work/guaviare-analisis/";
 
+var g_config_start = "/";
+var g_map = {};
+//Global Mappings:
+g_map["W".charCodeAt(0)] = "/work";
+
+
