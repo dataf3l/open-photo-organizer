@@ -1,0 +1,12 @@
+[package]
+name = "open-photo-organizer"
+version = "0.1.0"
+authors = ["Felipe@MBP <auditor400@gmail.com>"]
+
+[dependencies]
+iron = "*"
+time = "*"
+mount = "*"
+staticfile = "*"
+params = "*"
+

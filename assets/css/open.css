@@ -1,0 +1,20 @@
+div {
+	border:1px solid rgba(128,128,128,0.1);
+}
+#file_list {
+	vertical-align:top;
+	display:inline-block;
+	width:48%;
+	box-sizing:border-box;
+	height:80%;
+	overflow:scroll;
+}
+#file_preview {
+	vertical-align:top;
+	display:inline-block;
+	width:48%;
+	box-sizing:border-box;
+}
+.ff {
+	cursor:pointer;
+}
